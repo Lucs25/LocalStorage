@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localStorage e sessionStorage</title>
+    <!-- <script src="script.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="project.js" defer></script>
+</head>
+<body>
+    <header id="entry">
+        <h1>Página de boas vindas</h1>
+    </header>
+    <form id="name-form">
+        <h2>Insira seu nome para continuar</h2>
+        <label for="name"><b>Nome:</b></label>
+        <input type="text"
+        id="name"
+        placeholder="Por favor digite seu nome..."
+        required
+        minlength="2"
+        autofocus>
+        <input id="submit" type="submit" value="Enviar">
+    </form>
+    <div id="welcome">
+        <h2>Seja Bem Vindo <span id="userName"></span> !</h2>
+        <button id="logout">Sair</button>
+    </div>
+    <footer>
+        <p>&copy;Production of Lucs Corporation</p>
+    </footer>
+</body>
+</html>
